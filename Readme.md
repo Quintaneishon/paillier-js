@@ -2,13 +2,13 @@
 
 ## Votaciones
 
-Supongamos que hay 3,000 votantes y 4 candidatos. 3,000 caben en 12 bits.
+Supongamos que hay 13 votantes y 4 candidatos. 13 candidatos caben en 4 bits.
 Entonces los mensajes quedarian de la sigueinte manera:
 
 | Candidato | Candidato A   | Candidato B   | Candidato C   | Candidato D   |
 | :-------- | :-----------: | :-----------: | :-----------: | :-----------: |
-| <b>Binario</b>   | 000000000001  | 000000000001  | 000000000001  | 000000000001  |
-| <b>Decimal</b>   | 68,719,476,736| 16,777,216    | 4,096         | 1             |
+| <b>Binario</b>   | 0001  | 0001  | 0001  | 0001  |
+| <b>Decimal</b>   | 4,096 | 256   | 16    | 1     |
 
 ## Generación de llaves
 
@@ -48,28 +48,59 @@ Supongamos que 4 votantes quieren votar cada uno por 4 candidatos diferentes:
 
 | Votante | Candidato   | Mensaje |
 | :--------: | :-----------: | :-----------: |
-| Votante 1   | Candidato A  | 68719476736   |
-| Votante 2   | Candidato B  | 16777216   |
-| Votante 3   | Candidato C  | 4096   |
+| Votante 1   | Candidato A  | 4096   |
+| Votante 2   | Candidato B  | 256   |
+| Votante 3   | Candidato C  | 16   |
 | Votante 4   | Candidato D  | 1   |
 
-tenemos los siguientes mensajes:
+### Generamos la llave privada y publica
 
-m1 = 68719476736
+#### LLave publica
 
-m2 = 16777216
+<b>p</b> = 83
 
-m3 = 4096
+<b>q</b> = 53
+
+<b>n</b> = 4399 
+
+<b>_n2</b> = 19351201
+
+<b>g</b> = 12841802
+
+
+### LLave privada
+
+<b>λ</b> = 2132
+
+<b>μ</b> = 333
+
+### Ciframos los mensajes
+
+m1 = 4096
+c1 = 18135089
+
+m2 = 256
+c2 = 12536276
+
+m3 = 16
+c3 = 2772813
 
 m4 = 1
+c4 = 547209
 
-la suma es <b>68736258049</b>
+### Suma de los mensajes sin cifrar
 
-ciframos todos los mensajes y los multiplicamos, el resultado es: <b>1480417072 ... 35424046592</b>
+<b>4,369</b>
 
-y al desicfrar esta multiplicacion obtenemos <b>68736258049</b>
+### Multiplicación de los mensajes cifrados
 
-De esta forma podemos comprobar la característica homomorfa del algoritmo de Paillier.
+<b>344954686419270454171105188</b>
+
+### Desciframos la multiplicación
+
+<b>4,369</b>
+
+___De esta forma podemos comprobar la característica homomorfa del algoritmo de Paillier.___
 
 ## Ejecución
 
