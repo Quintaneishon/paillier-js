@@ -24,7 +24,8 @@ Entonces los mensajes quedarian de la sigueinte manera:
 
 #### LLave privada
 
-<b>λ</b> = lcm(p-1, q-1) con lcm(a,b) = a·b/gcd(a, b).
+<b>λ</b> = lcm(p-1, q-1) con lcm(a,b) = a·b/gcd(a, b)
+
 <b>μ</b> = ( g^λ mod n^2  ) ^ {-1} mod n
 
 ## Cifrar
