@@ -1,7 +1,7 @@
 const paillierBigint = require('paillier-bigint')
 
 const createExample = async () => {
-    const { publicKey, privateKey } = await paillierBigint.generateRandomKeys(14);
+    const { publicKey, privateKey } = await paillierBigint.generateRandomKeys(14, true);
     
     console.log( privateKey );
     

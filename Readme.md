@@ -58,39 +58,39 @@ Ahora supongamos que 5 votantes quieren votar de la siguiente manera
 
 #### LLave publica
 
-<b>p</b> = 149
+<b>p</b> = 131
 
-<b>q</b> = 67
+<b>q</b> = 109
 
-<b>n</b> = 9983 
+<b>n</b> = 14279 
 
-<b>_n2</b> = 99660289
+<b>_n2</b> = 203889841
 
-<b>g</b> = 77763362
+<b>g</b> = 14280
 
 
 ### LLave privada
 
-<b>λ</b> = 4884
+<b>λ</b> = 14040
 
-<b>μ</b> = 3286
+<b>μ</b> = 2808
 
 ### Ciframos los mensajes
 
 m1 = 4096,
-c1 = 81246374
+c1 = 190381436
 
 m2 = 256,
-c2 = 59566868
+c2 = 154411742
 
 m3 = 16,
-c3 = 28010413n
+c3 = 45011819
 
 m4 = 1,
-c4 = 45751556
+c4 = 35105138
 
 m5 = 16,
-c5 = 17048892
+c5 = 166530137
 
 ### Suma de los mensajes sin cifrar
 
@@ -98,7 +98,7 @@ c5 = 17048892
 
 ### Multiplicación de los mensajes cifrados
 
-<b>105737805860476652731398604383047663232</b>
+<b>7735617879876967158934842527579319701168</b>
 
 ### Desciframos la multiplicación
 
