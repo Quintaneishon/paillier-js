@@ -32,7 +32,7 @@ Entonces los mensajes quedarian de la sigueinte manera:
 
 <b>m</b> = número a cifrar
 
-<b>r</b> = número aleatorio menor que n tal qu gcd( r, n ) sea diferente de 1
+<b>r</b> = número aleatorio menor que n tal que gcd( r, n ) sea diferente de 1
 
 <b>c</b> =  ( g * m ) * ( r * n ) mod _n2
 
@@ -56,8 +56,11 @@ Supongamos que 4 votantes quieren votar cada uno por 4 candidatos diferentes:
 tenemos los siguientes mensajes:
 
 m1 = 68719476736
+
 m2 = 16777216
+
 m3 = 4096
+
 m4 = 1
 
 la suma es <b>68736258049</b>
