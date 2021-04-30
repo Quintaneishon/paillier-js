@@ -34,7 +34,7 @@
 
 ## Ejemplo
 
-Supongamos que hay 13 votantes y 4 candidatos. 13 candidatos caben en 4 bits.
+Supongamos que hay 13 votantes y 4 candidatos. El número 13 cabe en 4 bits.
 Entonces los mensajes quedarian de la sigueinte manera:
 
 | Candidato | Valor Binario   | Valor Decimal |
