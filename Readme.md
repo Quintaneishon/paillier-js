@@ -76,5 +76,7 @@ De esta forma podemos comprobar la característica homomorfa del algoritmo de Pa
 Para la ejecución del ejemplo, se deberá ejecutar el siguiente comando.
 
 ```console	
+> npm install
+
 > node index.js
 ```
