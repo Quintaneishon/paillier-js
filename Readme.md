@@ -44,7 +44,7 @@ Entonces los mensajes quedarian de la sigueinte manera:
 | Candidato C   | 0000 0000 0001 0000  | 16   |
 | Candidato D   | 0000 0000 0000 0001  | 1   |
 
-Supongamos que 5 votantes quieren votar de la siguiente manera
+Ahora supongamos que 5 votantes quieren votar de la siguiente manera
 
 | Votante | Candidato   | Mensaje |
 | :--------: | :-----------: | :-----------: |
