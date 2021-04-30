@@ -77,19 +77,19 @@ Supongamos que 5 votantes quieren votar de la siguiente manera
 
 ### Ciframos los mensajes
 
-m1 = 4096
+m1 = 4096,
 c1 = 81246374
 
-m2 = 256
+m2 = 256,
 c2 = 59566868
 
-m3 = 16
+m3 = 16,
 c3 = 28010413n
 
-m4 = 1
+m4 = 1,
 c4 = 45751556
 
-m5 = 16
+m5 = 16,
 c5 = 17048892
 
 ### Suma de los mensajes sin cifrar
